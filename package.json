@@ -1,0 +1,42 @@
+{
+  "name": "ts-transform-contextual-keys",
+  "version": "1.0.0",
+  "description": "TypeScript custom transformer able to extract interface keys contextually",
+  "main": "dist/index.js",
+  "files": [
+    "dist/index.js",
+    "dist/logger.js",
+    "dist/transformer.js",
+    "src/index.ts",
+    "src/logger.ts",
+    "src/transformer.ts"
+  ],
+  "scripts": {
+    "build": "./node_modules/.bin/tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bookwormdevelopment/ts-transform-contextual-keys.git"
+  },
+  "keywords": [
+    "TypeScript",
+    "Custom",
+    "Transformer",
+    "Interface",
+    "Keys"
+  ],
+  "author": "Bookworm Development",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bookwormdevelopment/ts-transform-contextual-keys/issues"
+  },
+  "homepage": "https://github.com/bookwormdevelopment/ts-transform-contextual-keys#readme",
+  "devDependencies": {
+    "@types/circular-json": "^0.4.0",
+    "@types/node": "^9.4.6",
+    "circular-json": "^0.5.1",
+    "tslint": "^5.9.1",
+    "typescript": "^2.7.2"
+  }
+}
